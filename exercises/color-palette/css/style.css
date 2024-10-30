@@ -1,0 +1,44 @@
+#palette-name {
+    font-family: inherit, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#palette-color-1 {
+    background-color: #CDB4DB;
+    color: purple;
+    font-family: inherit,sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette-color-2 {
+    background-color: #ffc8dd;
+    color: purple;
+    font-family: inherit,sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#color-palette-3 {
+    background-color: #FFAFCC;
+    color: purple;
+    font-family: inherit,sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#color-palette-4 {
+    background-color: #BDE0FE;
+    color: purple;
+    font-family: inherit,sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#color-palette-5 {
+    background-color: #A2D2FF;
+    color: purple;
+    font-family: inherit,sans-serif;
+    text-align: center;
+    padding: 24px;
+}
