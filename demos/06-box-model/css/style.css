@@ -1,0 +1,13 @@
+div {
+    border: 15px solid black;
+    margin: 50px;
+    padding: 24px 36px;
+    background-color:aqua
+}
+
+p {
+    border: 20px dotted blue;
+    margin: 60px;
+    padding: 48px 68px;
+    background-color: pink;
+}
