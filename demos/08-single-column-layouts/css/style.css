@@ -22,5 +22,6 @@ body {
 
 .dark-container {
     background-color: blueviolet;
+    color: white;
     padding: 48px 0px;
 }
