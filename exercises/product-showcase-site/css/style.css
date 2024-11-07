@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.single-column {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#blue {
+    padding: 48px;
+    background-color: #0cb1ee;
+    text-align: center;
+}
+
+#controller1 {
+    width: 100%;
+}
+
+#orange {
+    padding: 48px;
+    background-color: #cd5936;
+    text-align: center;
+}
+
+#controller2 { 
+    width: 100%;
+}
+
+#pink {
+    padding: 48px;
+    background-color: #d799bf;
+    text-align: center;
+}
+
+#controller3 {
+    width: 100%;
+}
