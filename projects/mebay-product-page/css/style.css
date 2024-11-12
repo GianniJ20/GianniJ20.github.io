@@ -10,7 +10,6 @@ body {
 #layout {
     margin-top: 20px;
     padding-top: 60px;
-    border-top: solid 2px grey;
     display: grid;
     grid-template-columns: 3fr 4fr 1fr;
     grid-template-areas: "one two three";
@@ -22,6 +21,7 @@ body {
 }
 
 #column-1 img {
+    padding: 10px;
     width: 100%;
 }
 
@@ -29,6 +29,7 @@ body {
 #column-2 {
     min-height: 100vh;
     grid-area: two;
+    padding: 10px;
 }
 
 .fake-button {
@@ -47,6 +48,7 @@ body {
     min-height: 100vh;
     grid-area: three;
     text-align:center;
+    padding: 10px;
 }
 
 #sidebar-content {
@@ -70,6 +72,32 @@ body {
 }
 
 #sidebar-content ul li {
+    padding: 4px 0px;
+}
+
+#sidebar-content2 {
+    width: 200px;
+    padding: 24px;
+    border: 2px solid grey;
+    margin-top: 30px;
+}
+
+#sidebar-content2 h3 {
+    border-bottom: 2px solid grey;
+    padding-bottom: 8px;
+}
+
+#sidebar-content2 ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align:center;
+}
+
+#sidebar-content2 ul a {
+    font-style: italic;
+}
+
+#sidebar-content2 ul li {
     padding: 4px 0px;
 }
 
