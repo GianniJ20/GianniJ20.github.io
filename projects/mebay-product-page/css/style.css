@@ -104,3 +104,30 @@ body {
 #price {
     font-size: 40px;
 }
+
+#mebay {
+    text-align: center;
+    font-size: 50px;
+    border-bottom: solid 3px grey;
+    padding: 15px;
+}
+
+#first-letter {
+    color: purple;
+}
+
+#second-letter {
+    color: red;
+}
+
+#third-letter {
+    color: blue;
+}
+
+#fourth-letter {
+    color: darkorange;
+}
+
+#fifth-letter {
+    color: green;
+}
