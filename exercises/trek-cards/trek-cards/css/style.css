@@ -1,0 +1,31 @@
+.card-style-1 {
+    width: 350px;
+    margin: 15px;
+    border: 2px solid #eeffee;
+    background: #eeffee;
+}
+
+.card-style-1 img {
+    width: 100%;
+}
+
+.card-style-1 h2{
+    padding: 20px;
+}
+
+.card-style-1 p {
+    text-align: left;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.card-style-1 a {
+    text-align: center;
+    background-color: #008000;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    border: 15px solid #008000;
+    font-size: 20px;
+}
