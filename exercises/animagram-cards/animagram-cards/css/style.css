@@ -1,0 +1,35 @@
+.card-style-2 {
+    width: 340px;
+    max-width: 350px;
+    background: white;
+    border-radius: 35px;
+    margin: 15px;
+    padding: 24px;
+    text-align: center;
+}
+
+.card-style-2 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 35px;
+}
+
+.animagram-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
+
+.animagram-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    font-size: 25px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
