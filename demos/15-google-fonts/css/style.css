@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size:30px;
+}
+
+
+p {
+    font-family: "Yatra One", system-ui;
+}
