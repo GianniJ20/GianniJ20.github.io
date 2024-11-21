@@ -27,6 +27,7 @@ body {
     text-decoration: underline;
     color: white;
     font-weight: 400;
+    font-size: 20px;
 }
 
 #hero-1 h1 {
@@ -51,6 +52,9 @@ body {
     background-attachment: fixed;
 }
 #layout {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: space-evenly;
 }
@@ -64,6 +68,7 @@ body {
     padding: 10px;
     font-size: 18;
     display: inline-block;
+    font-size: 20px;
 }
 
 .card-style-1 img {
@@ -87,8 +92,10 @@ body {
 }
 
 #grid-layout {
-    margin-right: 10px;
-    margin-left: 10px;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
     align-items: center;
 }
 
