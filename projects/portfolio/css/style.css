@@ -54,9 +54,10 @@ body {
     display: flex;
     justify-content: space-evenly;
 }
+
 .card-style-1 {
-    width: 330px;
-    max-width: 350px;
+    width: 430px;
+    max-width: 450px;
     margin: 15px;
     background: rgb(241 53 37);
     text-align: center;
@@ -86,20 +87,22 @@ body {
 }
 
 #grid-layout {
-    max-width: 800px;
-    margin: 48px auto;
-    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
 }
 
-.mixed-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 24px;
+.vertical-masonry-gallery {
+    columns: 3 auto;
+    column-gap: 24px;
     border: 10px solid rgb(101, 15, 15);
 }
 
-.mixed-grid img {
+.vertical-masonry-gallery img {
     width: 100%;
-    object-fit: cover;
-    padding: 10px;
+    margin-bottom: 24px;
+}
+
+#Gallery {
+    text-align: center;
 }
