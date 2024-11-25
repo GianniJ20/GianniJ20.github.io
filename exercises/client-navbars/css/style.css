@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Nokora:wght@100;300;400;700;900&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Nokora:wght@100;300;400;700;900&family=Sansita+Swashed:wght@300..900&family=Yatra+One&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(
+        to bottom,
+        #606C38,
+        #283618
+    );
+    display: flex;
+    align-items: center;
+}
+
+#navbar h1 {
+    color: #FEFAE0;
+    font-family: "Nokora", sans-serif;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #FEFAE0;
+    padding: 24px;
+    font-family: "Nokora", sans-serif;
+}
+
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 200vh;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+
+#navbar-2 {
+    background: linear-gradient(
+        to bottom,
+        #F77F00,
+        #FCBF49
+    );
+    display: flex;
+    align-items: center;
+}
+
+#navbar-2 h1 {
+    margin-right: auto;
+    font-size: 40px;
+    margin-left: 20px;
+    color: #D62828;
+    font-family: "Sansita Swashed", system-ui;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    color: #D62828;
+    padding: 24px;
+    font-size: 23px;
+    font-family: "Sansita Swashed", system-ui;
+}
+
+#navbar-2 .cta-button {
+    background-color: #ffffff;
+    color: #D62828;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin: 24px;
+    font-family: Nokora, sans-serif;
+}
+
+#header-2 {
+    position: sticky;
+    top: 0px;
+}
+
+#layout-2 {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 200vh;
+}
