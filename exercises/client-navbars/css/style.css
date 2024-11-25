@@ -139,12 +139,13 @@ body {
 
 #navbar-middle .content-column div a {
     padding: 28px;
+    margin-left: 35px;
 }
 
 #navbar-middle h1 {
     width: 150px;
     color: #FFFCF2;
-    margin-left: 230px;
+    margin-left: 35px;
     font-size: 35px;
     font-family: "Bowlby One SC", sans-serif;
     font-weight: 400;
