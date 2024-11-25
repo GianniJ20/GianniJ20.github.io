@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Nokora:wght@100;300;400;700;900&family=Yatra+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Nokora:wght@100;300;400;700;900&family=Sansita+Swashed:wght@300..900&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Lexend:wght@100..900&family=Nokora:wght@100;300;400;700;900&family=Sansita+Swashed:wght@300..900&family=Yatra+One&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -96,3 +97,103 @@ body {
     font-size: 24px;
     height: 200vh;
 }
+
+
+
+
+
+.content-column {
+    width: 800px;
+    margin: 0px auto;
+}
+
+#header-3 h2 {
+    background: linear-gradient(
+        to bottom,
+        #252422,
+        #403D39
+    );
+    color: #FFFCF2;
+    text-align: center;
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#navbar-middle {
+    background-color: #252422;
+    display: flex;
+}
+
+#navbar-middle .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-middle a {
+    text-decoration: none;
+    color: #FFFCF2;
+    padding: 24px 0px;
+}
+
+#navbar-middle .content-column div a {
+    padding: 28px;
+}
+
+#navbar-middle h1 {
+    width: 150px;
+    color: #FFFCF2;
+    margin-left: 230px;
+    font-size: 35px;
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#navbar-middle .cta-button {
+    background-color: #FFFCF2;
+    color: #252422;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin: 24px;
+}
+
+#navbar-bottom {
+    background: linear-gradient(
+        to top,
+        #252422,
+        #403D39
+    );
+    color: #FFFCF2;
+}
+
+#navbar-bottom .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: #FFFCF2;
+    padding: 12px 0px;
+    font-family: 
+}
+
+#header-3 {
+    position: sticky;
+    top: 0px;
+}
+
+#layout-3 {
+    width: 600px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 150vh;
+}
+
