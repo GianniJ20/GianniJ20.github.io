@@ -137,6 +137,7 @@ body {
 
     #navbar a {
         text-align: center;
+        font-size: 20px;
     }
 
     .dropdown-container {
@@ -166,10 +167,19 @@ body {
         );
     }
 
+    .dropdown-menu a {
+        background-color: transparent;
+        width: 100%;
+        min-width: 200px;
+    }
+    
+    #navbar .dropdown-menu a:hover {
+        background: transparent;
+    }
+    
+
     #navbar a:hover {
         background: transparent;
-        opacity: 0;
-        visibility: hidden;
     }
 
     #navbar #logo {
