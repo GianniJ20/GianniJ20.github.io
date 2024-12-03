@@ -110,12 +110,12 @@ body {
 
 .center-column {
     background-color: lightsalmon;
-    width: 90%; 
+    width: 80%; 
     margin: auto; 
     padding: 30px;
-    border-radius: 30px;
     text-align: center;
     font-size: 20px;
+    margin-bottom: 25px;
 }
 
 .center-column h1 {
@@ -126,7 +126,8 @@ body {
 .animal-photos img {
     width: 100%;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
+    padding: 60px;
 }
 
 @media screen and (max-width: 599px) {
