@@ -70,8 +70,6 @@ body {
     min-width: 200px;
 }
 
-.dropdown-menu a
-
 #navbar .dropdown-menu a:hover {
     background: coral;
 }
@@ -161,6 +159,15 @@ body {
     }
 
     #navbar a:hover {
+        background: transparent(
+            to top, 
+            coral,
+            pink
+        );
+    }
+
+    #navbar a:hover {
+        background: transparent;
         opacity: 0;
         visibility: hidden;
     }
