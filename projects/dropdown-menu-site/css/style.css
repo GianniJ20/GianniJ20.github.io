@@ -143,7 +143,6 @@ body {
 
     .dropdown-container {
         text-align: center;
-        
     }
 
     .center-column {
@@ -157,17 +156,13 @@ body {
         visibility: visible;
     }
 
-    i {
+    #navbar i {
         display: none;
     }
 
     #navbar a:hover {
         opacity: 0;
         visibility: hidden;
-    }
-
-    #navbar a {
-        text-decoration: underline;
     }
 
     #navbar #logo {
