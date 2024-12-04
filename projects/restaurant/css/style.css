@@ -40,6 +40,7 @@ body {
 
 #navbar h1 {
     margin-right: auto;
+    margin-left: auto;
     font-size: 50px;
     color: #FFFFFF;
 }
@@ -53,7 +54,16 @@ body {
     min-width: 150px;
     text-align: center;
     margin-right: 24px;
+    transition:
+        background-color 0.25s,
+        color 0.25s;
 }
+
+#navbar .cta-button:hover {
+    background-color: #721323;
+    color: #FFFFFF;
+    }
+    
 
 #footer {
     background: linear-gradient(
@@ -109,6 +119,14 @@ body {
     margin-top: 36px;
     margin-right: 12px;
     margin-left: 12px;
+    transition:
+        background-color 0.25s,
+        color 0.25s;
+}
+
+#hero-1 a:hover {
+    background-color: #721323;
+    color: #FFFFFF;
 }
 
 .single-column {
@@ -156,6 +174,14 @@ body {
     color: #FFFFFF;
     padding: 24px 48px;
     margin-top: 15px;
+    transition:
+        background-color 0.25s,
+        color 0.25s;
+}
+
+.side-by-side .text-container a:hover {
+    background-color: #721323;
+    color: #FFFFFF;
 }
 
 .parallax-banner {
@@ -193,6 +219,9 @@ body {
     border: 3px solid #FFFFFF;
     padding: 12px;
     margin-top: 36px;
+    transition:
+        background-color 0.25s,
+        color 0.25s;
 }
 
 .card-content p {
@@ -218,10 +247,16 @@ body {
         transform 0.5s;
 }
 
+.card-content p {
+    color: #FFFFFF;
+}
+
 .card-content:hover a {
     background-color: transparent;
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px);
+    background-color: #721323;
+    color: #FFFFFF;
 }
 
 
