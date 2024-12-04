@@ -101,6 +101,7 @@ body {
 
 #hero-1 a {
     font-size: 20px;
+    font-weight: bold;
     background-color: #8C1A2D;
     color: #FFFFFF;
     text-decoration: none;
@@ -115,5 +116,113 @@ body {
     max-width: 1200px;
     margin: 0px auto;
 }
+
+#main-section {
+    padding: 48px;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.side-by-side .image-container {
+    flex: 1;
+}
+
+.side-by-side .text-container {
+    color: #FFFFFF;
+    flex: 1;
+    padding: 36px;
+}
+
+.side-by-side .image-container img {
+    width: 100%;
+}
+
+.side-by-side .text-container h3 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.side-by-side .text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #8C1A2D;
+    color: #FFFFFF;
+    padding: 24px 48px;
+    margin-top: 15px;
+}
+
+.parallax-banner {
+    height: 50vh;
+    margin: 10px 0px;
+    background-image: url("../images/parallax-1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+.card {
+    width: 300px;
+    border: 3px solid #FFFFFF;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+    background-color: #8C1A2D;
+}
+
+.card-content a {
+    text-decoration: none;
+    font-weight:bold;
+    color: #FFFFFF;
+    display: block;
+    border: 3px solid #FFFFFF;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+.card-content p {
+    font-size: 18px;
+}
+
+.card img {
+    width: 100%;  
+}
+
+.card h2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-style: italic;
+    margin: 0px;
+    padding: 20px;
+}
+
+.card-content a {
+    transition: 
+        background-color 0.5s,
+        bow-shadow 0.5s,
+        transform 0.5s;
+}
+
+.card-content:hover a {
+    background-color: transparent;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
 
 
