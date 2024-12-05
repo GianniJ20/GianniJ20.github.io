@@ -38,7 +38,7 @@ body {
     width: 150px;
 }
 
-#navbar h1 {
+#navbar h1 a {
     margin-right: auto;
     margin-left: auto;
     font-size: 50px;
@@ -101,7 +101,7 @@ body {
 #hero-1 .hero-content {
     text-align: center;
     color: #FFFFFF;
-    padding-top: 300px;
+    padding-top: 30px;
 }
 
 #hero-1 h2 {
@@ -185,13 +185,20 @@ body {
 }
 
 .parallax-banner {
-    height: 50vh;
+    height: 60vh;
     margin: 10px 0px;
     background-image: url("../images/parallax-1.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
 
+#Appetizers {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
 
 .cards-container {
     display: flex;
@@ -259,5 +266,235 @@ body {
     color: #FFFFFF;
 }
 
+#hero-2 {
+    background-image: url(../images/pizza-banner.jpg);
+    height: 30vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5
+}
+
+#hero-2 .hero-content-2 {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 30px;
+}
+
+#hero-2 h2 {
+    font-size: 42px;
+}
+
+#Dish {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.single-column-2 {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#main-section-2 {
+    padding: 0px 48px;
+}
+
+.side-by-side-2 {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.side-by-side-2 .image-container-2 {
+    flex: 1;
+}
+
+.side-by-side-2 .text-container-2 {
+    color: #FFFFFF;
+    flex: 1;
+    padding: 36px;
+}
+
+.side-by-side-2 .image-container-2 img {
+    width: 100%;
+}
+
+.side-by-side-2 .text-container-2 h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.side-by-side-2 .text-container-2 a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #8C1A2D;
+    color: #FFFFFF;
+    padding: 24px 48px;
+    margin-top: 15px;
+    transition:
+        background-color 0.25s,
+        color 0.25s;
+}
+
+.side-by-side-2 .text-container-2 a:hover {
+    background-color: #721323;
+    color: #FFFFFF;
+}
+
+#main-dishes {
+    text-align: center;
+    margin-top: 70px;
+    padding-top: 30px;
+    border-top: solid 3px #FFFFFF;
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.cards-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+.card-2 {
+    width: 400px;
+    border: 3px solid #FFFFFF;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+    background-color: #8C1A2D;
+}
+
+.card-content-2 a {
+    text-decoration: none;
+    font-weight:bold;
+    color: #FFFFFF;
+    display: block;
+    border: 3px solid #FFFFFF;
+    padding: 12px;
+    margin-top: 36px;
+    transition:
+        background-color 0.25s,
+        color 0.25s;
+}
+
+.card-content-2 p {
+    font-size: 18px;
+}
+
+.card-2 img {
+    width: 100%;  
+}
+
+.card-2 h2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-style: italic;
+    margin: 0px;
+    padding: 20px;
+}
+
+.card-content-2 a {
+    transition: 
+        background-color 0.5s,
+        bow-shadow 0.5s,
+        transform 0.5s;
+}
+
+.card-2 p {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.card-content-2:hover a {
+    background-color: transparent;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+    background-color: #721323;
+    color: #FFFFFF;
+}
 
 
+@media screen and (max-width: 762px) {
+    
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #navbar h1 {
+        font-size: 40px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0px;
+    }
+
+    #navbar #logo {
+        margin-right: 0px;
+    }
+
+    #navbar .cta-button {
+        opacity: 0;
+        visibility: hidden;
+        margin: 0px;
+    }
+
+    #hero-1 {
+    background-image: url(../images/cheeseburger-hero.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-1 .hero-content {
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 150px;
+}
+
+#hero-1 h2 {
+    font-size: 35px;
+    margin-bottom: 36px;
+}
+
+#hero-1 a {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #8C1A2D;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 12px;
+    margin-left: 12px;
+    transition:
+        background-color 0.25s,
+        color 0.25s;
+}
+
+#hero-1 a:hover {
+    background-color: #721323;
+    color: #FFFFFF;
+}
+
+}
