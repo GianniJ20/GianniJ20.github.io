@@ -86,7 +86,7 @@ body {
 
 #hero-1 {
     background-image: url(../images/cheeseburger-hero.jpg);
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -103,6 +103,7 @@ body {
 #hero-1 h2 {
     font-size: 42px;
     margin-bottom: 36px;
+    text-shadow: 1px 1px 2px #FFFFFF, 0 0 1em #721323, 0 0 0.2em #721323;
 }
 
 #hero-1 a {
@@ -138,7 +139,7 @@ body {
 .side-by-side {
     display: flex;
     align-items: center;
-    margin: 48px 0px;
+    margin: 50px 0px;
 }
 
 .side-by-side .image-container {
@@ -180,17 +181,9 @@ body {
     color: #FFFFFF;
 }
 
-.parallax-banner {
-    height: 60vh;
-    margin: 10px 0px;
-    background-image: url("../images/parallax-1.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-}
 
 #Appetizers {
     text-align: center;
-    margin-top: 30px;
     font-size: 30px;
     color: #FFFFFF;
     font-weight: bold;
@@ -270,7 +263,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0.5
 }
 
 #hero-2 .hero-content-2 {
@@ -281,6 +273,7 @@ body {
 
 #hero-2 h2 {
     font-size: 42px;
+    text-shadow: 1px 1px 2px #FFFFFF, 0 0 1em #721323, 0 0 0.2em #721323;
 }
 
 #Dish {
@@ -289,6 +282,9 @@ body {
     font-size: 40px;
     color: #FFFFFF;
     font-weight: bold;
+    border-top: solid 3px #FFFFFF;
+    padding: 30px;
+    margin-top: 70px;
 }
 
 .single-column-2 {
@@ -467,37 +463,64 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    }
 
-#hero-1 .hero-content {
-    text-align: center;
-    color: #FFFFFF;
-    padding-top: 30px;
-}
+    #hero-1 .hero-content {
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 30px;
+        padding: 40px;
+    }
 
-#hero-1 h2 {
-    font-size: 35px;
-    margin-bottom: 36px;
-}
+    #hero-1 h2 {
+        font-size: 35px;
+        margin-bottom: 36px;
+    }
 
-#hero-1 a {
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #8C1A2D;
-    color: #FFFFFF;
-    text-decoration: none;
-    padding: 24px;
-    margin-top: 36px;
-    margin-right: 12px;
-    margin-left: 12px;
-    transition:
-        background-color 0.25s,
-        color 0.25s;
-}
+    #hero-1 a {
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #8C1A2D;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 24px;
+        margin-top: 36px;
+        margin-right: 12px;
+        margin-left: 12px;
+        transition:
+            background-color 0.25s,
+            color 0.25s;
+    }
 
-#hero-1 a:hover {
-    background-color: #721323;
-    color: #FFFFFF;
-}
+    #hero-1 a:hover {
+        background-color: #721323;
+        color: #FFFFFF;
+    }
 
+    #footer {
+        display: flex;
+        flex: wrap;
+    }
+    
+    #footer-navbar {
+        flex-direction: column;
+        align-items: center;
+    } 
+    
+
+    .side-by-side {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .side-by-side .text-container h3 {
+        font-size: 25px;
+    }
+    
+
+    #Appetizers {
+        padding: 15px;
+        font-size: 25px
+    }
 }
