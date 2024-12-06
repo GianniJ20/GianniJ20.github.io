@@ -36,12 +36,12 @@ body {
     align-items: center;
     text-align: center;
     margin: 30px 30px;
+    justify-content:
 }
 
 #football-container h1 {
     font-size: 100px;
     margin: 0px 20px;
-    display: inline-block;
 }
 
 #football-container #bulldog img {
@@ -50,4 +50,42 @@ body {
 
 #football-container #falcon img {
     width: 100%;
+}
+
+
+#general-information {
+    padding: 0px 20px;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.cta-button {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+
+.cta-button a {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #0f6913;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 12px;
+    margin-left: 12px;
+    transition:
+        background-color 0.25s,
+        color 0.25s;
+}
+
+.cta-button a:hover {
+    background-color: #0a510e;
+    color: #FFFFFF;
+}
+
+#general-information h3 {
+    font-size: 20px;
+    padding: 0px 2px;
 }
