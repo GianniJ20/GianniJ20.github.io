@@ -134,6 +134,10 @@ body {
 
 #main-section {
     padding: 48px;
+    margin-top: 70px;
+    border-top: solid 3px #FFFFFF;
+    border-bottom: solid 3px #FFFFFF;
+    margin-bottom: 70px;
 }
 
 .side-by-side {
@@ -508,11 +512,13 @@ body {
     } 
     
 
-    .side-by-side {
+    #main-section .single-column .side-by.side {
         display: flex;
         flex-direction: column;
-        margin-bottom: 15px;
     }
+
+    .side
+    
 
     .side-by-side .text-container h3 {
         font-size: 25px;
