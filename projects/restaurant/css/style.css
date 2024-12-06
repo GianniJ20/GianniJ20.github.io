@@ -80,7 +80,7 @@ body {
 }
 
 #footer-navbar {
-    width: 800px;
+    width: 100%;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -511,10 +511,14 @@ body {
     }
 
     #footer {
-        
+        display: flex;
     }
     
-    
+    #footer-navbar {
+        flex-direction: column;
+        align-items: center;
+        
+    } 
     
     #main-section .single-column .side-by-side {
         display: flex;
