@@ -516,8 +516,7 @@ body {
     
     #footer-navbar {
         flex-direction: column;
-        align-items: center;
-        
+        align-items: center;   
     } 
     
     #main-section .single-column .side-by-side {
@@ -528,7 +527,7 @@ body {
         text-align: center;
     }
 
-    #main-section .single-column .side-by-side-2 {
+    #main-section-2 .single-column-2 .side-by-side-2 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -547,10 +546,10 @@ body {
     }
 
     #main-section .single-column {
-        min-width: 100%
+        min-width: 100%;
     }
 
-    #main-section .single-column-2 {
+    #main-section-2 .single-column-2 {
         min-width: 100%;
     }
 }
