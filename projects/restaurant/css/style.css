@@ -511,13 +511,10 @@ body {
     }
 
     #footer {
-        display: flex;
+        
     }
     
-    #footer-navbar {
-        flex-direction: column;
-        align-items: center;
-    } 
+    
     
     #main-section .single-column .side-by-side {
         display: flex;
