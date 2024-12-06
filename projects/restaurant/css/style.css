@@ -512,7 +512,6 @@ body {
 
     #footer {
         display: flex;
-        flex: wrap;
     }
     
     #footer-navbar {
