@@ -13,4 +13,41 @@ body {
     width: 50%;
     min-width: 500px;
     margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.center-column #top-information h3 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+
+.center-column #top-information h1 {
+    font-size: 70px;
+    margin: 20px 0px;
+}
+
+#football-container {
+    display: flex;
+    flex: row;
+    align-items: center;
+    text-align: center;
+    margin: 30px 30px;
+}
+
+#football-container h1 {
+    font-size: 100px;
+    margin: 0px 20px;
+    display: inline-block;
+}
+
+#football-container #bulldog img {
+    width: 100%;
+}
+
+#football-container #falcon img {
+    width: 100%;
 }
