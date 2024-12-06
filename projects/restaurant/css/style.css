@@ -9,6 +9,7 @@ body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #0C6B75;
+    font-family: Lexend, Arial, sans-serif;
 }
 
 #navbar {
@@ -39,6 +40,7 @@ body {
 #navbar h1 a {
     font-size: 50px;
     color: #FFFFFF;
+    font-family: Henny Penny, Arial, sans-serif;
 }
 
 #navbar .cta-button {
@@ -142,6 +144,7 @@ body {
 
 .side-by-side {
     display: flex;
+    flex-direction: row;
     align-items: center;
     margin: 50px 0px;
 }
@@ -164,6 +167,7 @@ body {
     font-size: 48px;
     margin-bottom: 10px;
     margin-top: 0px;
+    font-family: Henny Penny, Arial, sans-serif;
 }
 
 .side-by-side .text-container a {
@@ -191,6 +195,7 @@ body {
     font-size: 30px;
     color: #FFFFFF;
     font-weight: bold;
+    font-family: Henny Penny, Arial, sans-serif;
 }
 
 .cards-container {
@@ -278,6 +283,7 @@ body {
 #hero-2 h2 {
     font-size: 42px;
     text-shadow: 1px 1px 2px #FFFFFF, 0 0 1em #721323, 0 0 0.2em #721323;
+    font-family: Henny Penny, Arial, sans-serif;
 }
 
 #Dish {
@@ -289,6 +295,7 @@ body {
     border-top: solid 3px #FFFFFF;
     padding: 30px;
     margin-top: 70px;
+    font-family: Henny Penny, Arial, sans-serif;
 }
 
 .single-column-2 {
@@ -303,6 +310,7 @@ body {
 
 .side-by-side-2 {
     display: flex;
+    flex-direction: row;
     align-items: center;
     margin: 48px 0px;
 }
@@ -354,6 +362,7 @@ body {
     font-size: 40px;
     color: #FFFFFF;
     font-weight: bold;
+    font-family: Henny Penny, Arial, sans-serif;
 }
 
 .cards-container-2 {
@@ -460,13 +469,13 @@ body {
     }
 
     #hero-1 {
-    background-image: url(../images/cheeseburger-hero.jpg);
-    height: 50vh;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        background-image: url(../images/cheeseburger-hero.jpg);
+        height: 50vh;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #hero-1 .hero-content {
@@ -511,17 +520,24 @@ body {
         align-items: center;
     } 
     
-
-    #main-section .single-column .side-by.side {
+    #main-section .single-column .side-by-side {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        margin: 48px 0px;
     }
 
-    .side
+    #main-section .single-column .side-by-side-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 48px 0px;
+    }
     
 
     .side-by-side .text-container h3 {
         font-size: 25px;
+        text-align: center;
     }
     
 
