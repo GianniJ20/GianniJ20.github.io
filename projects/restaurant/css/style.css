@@ -17,6 +17,7 @@ body {
         to bottom,
         #03373c,
         #0C6B75,
+        #0C6B75,
         #03373c
     );
     display: flex;
@@ -68,10 +69,11 @@ body {
         to bottom,
         #03373c,
         #0C6B75,
+        #0C6B75,
         #03373c
     );
     color: #FFFFFF;
-    padding: 12px;
+    padding: 30px;
 }
 
 #footer a {
