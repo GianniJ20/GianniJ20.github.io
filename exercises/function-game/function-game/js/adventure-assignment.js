@@ -80,7 +80,3 @@ function reactToJumpUpButton() {
 function reactToJumpButton() {
     jump();
 }
-
-function reactToNudgeButton() {
-    nudge();
-}
